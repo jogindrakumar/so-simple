@@ -28,6 +28,10 @@ body::before {
     color: #0d6efd;
 }
 
+.card {
+    cursor: pointer;
+}
+
 .fa-youtube:hover {
     color: red
 }
