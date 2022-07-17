@@ -79,28 +79,15 @@ Explore Food   section Design
 =============================================== */
 
 .explore-project .card {
-    border: non;
+    /* border: none; */
     background-color: transparent;
     border-radius: 0.9375rem;
+    text-align: center;
 }
 
 .explore-project .card img {
     border-radius: 0.9375rem;
     object-fit: cover;
-}
-
-.explore-project .card span {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    padding-bottom: 1rem;
-    border-bottom: 0.0625rem solid #eee;
-}
-
-.explore-project .card span del {
-    color: var(--text-gray);
-    margin-left: 0.5rem;
 }
 
 @media(min-width:768px) {}
